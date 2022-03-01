@@ -280,45 +280,7 @@ box-shadow: inset 4px 4px 27px #0096FF;
 border-radius: 16px;
 opacity:.9;
 }
-@media only screen and (max-width: 768px) {
-    .bigbtn2{
 
-        width: 400px;
-        height: 79px;
-        
-        left: 0px;
-        top: 0px;
-        
-        background: linear-gradient(0deg, rgba(32, 6, 69, 0.85), rgba(32, 6, 69, 0.85));
-        border: 1px solid #66009A;
-        box-sizing: border-box;
-        box-shadow: inset 4px 4px 27px #0096FF;
-        border-radius: 16px;
-        opacity:.9;
-        }
-        .btnsize{
-            left: 7.67%;
-        right: 7.67%;
-        top: 30.15%;
-        bottom: 30.15%;
-        
-        font-family: Space Ranger;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 28.096px;
-        line-height: 79px;
-        /* identical to box height */
-        
-        text-align: center;
-        letter-spacing: 0.978844px;
-        
-        color: #0096FF;
-        }
-        .or{
-            display: none;
-        }
-
-}
 .bigbtn3{
 
 width: 630px;
@@ -449,4 +411,83 @@ padding: 12px 16px;
     position:absolute;
     top: 0px;
     right: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+    .bigbtn2{
+
+        width: 300px !important;
+        height: 79px;
+        
+        left: 0px;
+        top: 0px;
+        
+        background: linear-gradient(0deg, rgba(32, 6, 69, 0.85), rgba(32, 6, 69, 0.85));
+        border: 1px solid #66009A;
+        box-sizing: border-box;
+        box-shadow: inset 4px 4px 27px #0096FF;
+        border-radius: 16px;
+        opacity:.9;
+        }
+        .btnsize{
+            left: 7.67%;
+        right: 7.67%;
+        top: 30.15%;
+        bottom: 30.15%;
+        
+        font-family: Space Ranger;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28.096px;
+        line-height: 79px;
+        /* identical to box height */
+        
+        text-align: center;
+        letter-spacing: 0.978844px;
+        
+        color: #0096FF;
+        }
+        .or{
+            display: none;
+        }
+
+}
+@media only screen and (max-width: 1400px) {
+    .bigbtn2{
+        width: 450px;
+        height: 179px; 
+        background: linear-gradient(0deg, rgba(32, 6, 69, 0.85), rgba(32, 6, 69, 0.85));
+        border: 1px solid #66009A;
+        box-sizing: border-box;
+        box-shadow: inset 4px 4px 27px #0096FF;
+        border-radius: 16px;
+        opacity:.9;
+        }
+        .btnsize{
+        font-family: Space Ranger;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 68.096px;
+        line-height: 79px;
+        /* identical to box height */
+        
+        text-align: center;
+        letter-spacing: 0.978844px;
+        
+        color: #0096FF;
+        }
+        .or{
+            position: absolute;
+            width: 77.05px;
+            height: 77.05px;
+            top: -24px;
+            left: 440px ;
+        
+            }
+
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px)  {
+    .or{
+        left: 480px;
+    }
 }

@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import './LoseModal.css'
 import close from '../../images/close.png'
 import lose from '../../images/losemodal.png'
+import { Link } from 'react-router-dom';
 const LoseModal = () => {
     return (
         <div className='losemodal border'>
@@ -11,7 +12,7 @@ const LoseModal = () => {
                 <h2 className='leader'>LOSE MODAL</h2>
                 <p className='text-white'>lose you game</p>
 
-                <Button>Play Again</Button>
+                <Link to="/win"><Button>Play Again</Button></Link>
                 <img className='close' src={close} alt="" />
             </div>
         </div>

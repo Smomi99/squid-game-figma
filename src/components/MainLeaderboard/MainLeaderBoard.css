@@ -92,3 +92,44 @@ background: -webkit-linear-gradient(#5B86FF, #D515FE);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width: 1400px) and (min-width: 300px)  {
+    .middledown{
+        position: absolute;
+        bottom: -50px;
+        left: 25%;
+        width: 50%;
+    }
+
+}
+@media only screen and (max-width: 800px) and (min-width: 300px)  {
+    .downleft{
+        position: absolute;
+        bottom: -50px;
+        left: -50px;
+        width: 30%;
+
+    }
+    .upleft{
+        position: absolute;
+        top: -458px;
+        left: -50px;
+        width: 30%;
+
+    }
+    .topright{
+        position: absolute;
+        top: -456px;
+        right: -50px;
+        width: 30%;
+
+    }
+    .downright{
+        position: absolute;
+        bottom: -50px;
+        right: -50px;
+        width: 30%;
+
+    }
+
+
+}

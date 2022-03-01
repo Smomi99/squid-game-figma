@@ -17,7 +17,7 @@ const MainLeaderboard = () => {
         <div className='container'>
             <div className=' container bgLeader mt-4'>
 
-                <Table className='text-white m-4' >
+                <Table className='text-white m-4 table1' >
 
                     <tbody >
                         <tr>

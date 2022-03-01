@@ -47,9 +47,9 @@ const Header = () => {
 
                             </Nav>
                             <Form className="d-flex gap-4">
-                                <img src={music} alt="" />
-                                <img src={flag} alt="" />
-                                <img src={user} alt="" />
+                                <img style={{ height: '50px' }} src={music} alt="" />
+                                <img style={{ height: '50px' }} src={flag} alt="" />
+                                <img style={{ height: '50px' }} src={user} alt="" />
                             </Form>
                         </Navbar.Collapse>
                     </Container>
@@ -82,7 +82,7 @@ const Header = () => {
                         />
                     </Col>
                     <Col>
-                        <Button className='bigbtn2 '><span className='btnsize'>right</span></Button>
+                        <Button className='bigbtn2 ' onClick={() => setModalShow(true)}><span className='btnsize'>right</span></Button>
                     </Col>
 
 
