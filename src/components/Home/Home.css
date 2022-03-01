@@ -1,0 +1,413 @@
+@import url(//db.onlinewebfonts.com/c/a91b529fe5de7adf949930d160321676?family=Space+Ranger);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.background{
+    background-image: url("../../images/2.png");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.background1{
+    background-image: url("../../images/1.png");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.logo{
+position: absolute;
+width: 214px;
+height: 115px;
+left: 70px;
+top: 36px;
+background-image: url(../../images/logo.png);
+}
+/* .dolar{
+    background-image: url(../../images/dolar.png);
+} */
+.walletframe{
+    margin-top: 260px;
+    text-align: center;
+}
+
+.usdprice{
+/* margin-top: 260px; */
+font-family: Dark College;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+/* identical to box height */
+
+/* text-align: center; */
+letter-spacing: 0.045em;
+text-transform: uppercase;
+
+/* Brand/Primary-Color */
+
+color: #0096FF;
+
+text-shadow: 0px 4.34116px 64.0321px rgba(255, 255, 255, 0.25), 0px 4.34116px 4.34116px rgba(0, 0, 0, 0.15);
+}
+
+.semiwalletframe{
+    /* margin: auto;
+    width: 60%;
+    padding: 10px;
+
+width: 744px;
+height: 343px; */
+
+}
+.leftright{
+    /* border: 4px solid; */
+    font-family: Space Ranger;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 62px;
+    /* margin-top: 221px; */
+    /* or 94% */
+    /* margin-left: 628px;
+    margin-right: 538px; */
+    color: #FFFFFF;
+    text-align: center;
+    }
+
+    .startwallet{
+
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 32.379px;
+line-height: 42px;
+/* or 130% */
+
+text-align: center;
+letter-spacing: -0.025em;
+
+
+color: #0096FF;
+
+    }
+    .startwallet1{
+
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22.8px;
+        line-height: 36px;
+        /* or 158% */
+        
+        text-align: center;
+        letter-spacing: 0.266388px;
+        
+        color: #FFFFFF;
+        
+        opacity: 0.9;
+
+    }
+
+.walletbtn{
+    /* button */
+
+
+/* Auto layout */
+
+justify-content: center;
+align-items: center;
+padding: 17.781px 23.708px;
+
+width: 299px;
+height: 81px;
+left: 98.5px;
+top: 71px;
+
+/* Brand/Primary-Color */
+
+background: #0096FF;
+box-shadow: 0px 2px 20px #0096FF;
+border-radius: 14.5309px !important;
+}
+.walletbtn1{
+    
+
+
+
+/* Heading/H3 */
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+
+color: #FFFFFF;
+
+
+
+}
+/* .btn-icon{
+    background-image: url(../../images/mask.png);
+} */
+.connectLetter{
+    /* Brand */
+
+
+position: static;
+height: 17px;
+left: 41.33%;
+right: 41.33%;
+top: calc(50% - 17px/2 + 163px);
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.913149px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+opacity: 0.4;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 30px 0px;
+}
+.coin-img1{
+    height: 213.51px;
+    width: 283.51px;
+
+    left: -108px;
+    top: 800.38px;
+    
+
+
+}
+.coin-img2{
+    position: absolute;
+right: 0px;
+top: 715px;
+}
+.coin-img3{
+    position: absolute;
+right: 0px;
+top: 664px;
+}
+.leftright1{
+    /* border: 4px solid; */
+    font-family: Space Ranger;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 62px;
+    /* margin-top: 221px; */
+    /* or 94% */
+    /* margin-left: 628px;
+    margin-right: 538px; */
+    color: #F83232;    text-align: center;
+    }
+.leftright2{
+    left: 35.14%;
+    right: 34.79%;
+    bottom: 84.39%;
+    
+    font-family: Space Ranger;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 62px;
+    /* identical to box height, or 172% */
+    
+    text-align: center;
+    letter-spacing: 0.1px;
+    
+    /* Brand/Primary-Color */
+    
+    color: #0096FF;
+    }
+
+/* 
+leadership
+*/
+.bigbtn{
+
+width: 40px;
+height: 179px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(32, 6, 69, 0.85), rgba(32, 6, 69, 0.85));
+border: 1px solid #66009A;
+box-sizing: border-box;
+box-shadow: inset 4px 4px 27px #0096FF;
+border-radius: 16px;
+opacity:.9;
+}
+.bigbtn2{
+
+width: 630px;
+height: 179px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(32, 6, 69, 0.85), rgba(32, 6, 69, 0.85));
+border: 1px solid #66009A;
+box-sizing: border-box;
+box-shadow: inset 4px 4px 27px #0096FF;
+border-radius: 16px;
+opacity:.9;
+}
+.bigbtn3{
+
+width: 630px;
+height: 179px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(32, 6, 69, 0.85), rgba(32, 6, 69, 0.85));
+border: 1px solid #66009A;
+box-sizing: border-box;
+box-shadow: inset 4px 4px 27px #0096FF;
+border-radius: 16px;
+opacity:.9;
+}
+.btnsize{
+    left: 7.67%;
+right: 7.67%;
+top: 30.15%;
+bottom: 30.15%;
+
+font-family: Space Ranger;
+font-style: normal;
+font-weight: normal;
+font-size: 88.096px;
+line-height: 79px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.978844px;
+
+color: #0096FF;
+}
+.btnsize1{
+    left: 7.67%;
+right: 7.67%;
+top: 30.15%;
+bottom: 30.15%;
+
+font-family: Space Ranger;
+font-style: normal;
+font-weight: normal;
+font-size: 38.096px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.978844px;
+
+color: #0096FF;
+}
+.hell{
+    position:relative;
+    padding: 33px;
+}
+.or{
+    position: absolute;
+    width: 77.05px;
+    height: 77.05px;
+    top: -24px;
+    left: 622px;
+
+    }
+    /* header part of leader board */
+
+.nav{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+margin-left: 40px;
+margin-right: 40px;
+height: 94px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(105, 19, 149, 0.71) 0%, rgba(105, 19, 149, 0.4615) 100%);
+box-shadow: 0px 1px 4px #0096FF;
+border-radius: 0px 0px 16px 16px;
+}
+.semi-nav{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px 12px 23px;
+height: 54px;
+background: #200645;
+border: 1px solid #7019A1;
+box-sizing: border-box;
+box-shadow: inset -20px 35px 80px #8D22C5;
+border-radius: 90px;
+}
+.navbar-item{
+
+text-align: center;
+padding: 12px 16px;
+
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: inset 0px 35px 32px rgba(0, 0, 0, 0.25);
+filter: drop-shadow(-1px 7px 15px rgba(0, 150, 255, 0.63));
+border-radius: 800px;
+}
+.navbar-item1{
+
+text-align: center;
+padding: 12px 16px;
+
+
+}
+/* rank pay css */
+.bgrankup{
+    position: relative;
+    text-align: center;
+
+}
+.bg-rank{
+    background-image: url(../../images//rankpay.png);
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.rankboard{
+    position:absolute;
+    top: 0px;
+    right: 40%;
+}
