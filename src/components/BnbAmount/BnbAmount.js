@@ -16,7 +16,7 @@ const BnbAmount = () => {
                     <Col xs={6} className='mb-4 mt-4'>
                         <Col className='gap-4 row'>
                             <Col className='bnb1'>
-                                <div className='d-flex justify-content-start align-items-center '><Link className='text-decoration-none' to="/transaction"> <img src={binance} alt="" /> <h3 className='text-white'>1 BNB</h3></Link></div>
+                                <div className='d-flex justify-content-start align-items-center '><Link className='text-decoration-none' to="/transaction"> <img src={binance} alt="" /> <span className='text-white' style={{ fontWeight: '600', fontSize: '24px' }}>1BNB</span></Link></div>
                                 <div>
                                     <img src={starsvg} alt="" /> <span className='text-white'>+100</span> <img src={dolarsvg} alt="" /> <span className='text-white'>+$600 SQM</span>
                                 </div>

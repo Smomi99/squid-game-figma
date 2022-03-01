@@ -14,8 +14,7 @@
     align-items: center;
 }
 .bnb1{
-width: 210px;
-height: 90px;
+
 position: relative;
 background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #0096FF;
 background-blend-mode: soft-light, normal;

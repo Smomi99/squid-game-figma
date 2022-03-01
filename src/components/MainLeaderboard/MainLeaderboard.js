@@ -15,34 +15,34 @@ import { Link } from 'react-router-dom';
 const MainLeaderboard = () => {
     return (
         <div className='container'>
-            <div className=' container bgLeader mt-4'>
+            <div className='  bgLeader '>
 
-                <Table className='text-white m-4 table1' >
+                <Table className='text-white' >
 
                     <tbody >
                         <tr>
                             <td><img src={first} alt="" class="avatar" /></td>
                             <td><img src={users} alt="" class="avatar1" /></td>
-                            <td><h3>Plyer Name</h3></td>
-                            <td><h3>10293</h3></td>
+                            <td><h5>Plyer Name</h5></td>
+                            <td><h6>10293</h6></td>
                         </tr>
                         <tr>
                             <td><img src={secondnd} alt="" class="avatar" /></td>
                             <td><img src={users} alt="" class="avatar1" /></td>
-                            <td><h3>Plyer Name</h3></td>
-                            <td><h3>9786</h3></td>
+                            <td><h5>Plyer Name</h5></td>
+                            <td><h6>9786</h6></td>
                         </tr>
                         <tr>
                             <td><img src={third} alt="" class="avatar" /></td>
                             <td><img src={users} alt="" class="avatar1" /></td>
-                            <td><h3>Plyer Name</h3></td>
-                            <td><h3>6954</h3></td>
+                            <td><h5>Plyer Name</h5></td>
+                            <td><h6>6954</h6></td>
                         </tr>
                         <tr>
                             <td> <h2 className='ps-4'>4</h2></td>
                             <td><img src={users} alt="" class="avatar1" /></td>
-                            <td><h3>Plyer Name</h3></td>
-                            <td><h3>5325</h3></td>
+                            <td><h5>Plyer Name</h5></td>
+                            <td><h6>5325</h6></td>
                         </tr>
 
 
@@ -59,7 +59,7 @@ const MainLeaderboard = () => {
                     <img className='upleft img-fluid' src={upleft} alt="" />
                     <img className='topright img-fluid' src={topright} alt="" />
                     <img className='downright img-fluid' src={downright} alt="" />
-                    im
+
                 </div>
 
             </div>
