@@ -1,6 +1,6 @@
-.bnb-background{
-    background-image: url(../../images/bnb.png);
-      /* Full height */
+.bnb-background {
+  background-image: url(../../images/bnb.png);
+  /* Full height */
   height: 100%;
 
   /* Center and scale the image nicely */
@@ -8,32 +8,55 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bnbAm{
+.bnbAm {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bnb1 {
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #0096ff;
+  background-blend-mode: soft-light, normal;
+  border-radius: 12px;
+}
+.bnb2 {
+  background: linear-gradient(
+      0deg,
+      rgba(36, 24, 86, 0.91),
+      rgba(36, 24, 86, 0.91)
+    ),
+    #de792e;
+  box-shadow: inset -2px 9px 60px rgba(141, 34, 197, 0.66);
+  border-radius: 12px;
+  cursor: pointer;
+  width: 152px;
+}
+.change-my-color {
+  fill: green;
+}
+.sign {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+@media only screen and (max-width: 600px) and (min-width: 10px) {
+  .bnbAm {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
 }
-.bnb1{
-
-position: relative;
-background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #0096FF;
-background-blend-mode: soft-light, normal;
-border-radius: 12px;
-}
-.bnb2{
-left: 71.44%;
-right: 13.97%;
-
-background: linear-gradient(0deg, rgba(36, 24, 86, 0.91), rgba(36, 24, 86, 0.91)), #DE792E;
-box-shadow: inset -2px 9px 60px rgba(141, 34, 197, 0.66);
-border-radius: 12px;
-}
-.change-my-color{
-    fill: green;
-
-}
-.sign{
-    position: absolute;
-    top: 0px;
-    right: 0px;
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+  .bnb2 {
+    width: 40%;
+  }
+  .sqm {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -1,24 +1,21 @@
-.card-size{
-    width: 223px;
-    height: 227px;
-    
-    filter: drop-shadow(6px 10px 22px #620095);
-    border-radius: 16px 16px 0px 0px;
+.card-size {
+  width: 223px;
+  height: 227px;
+
+  filter: drop-shadow(6px 10px 22px #620095);
+  border-radius: 16px 16px 0px 0px;
 }
-.bgBet{
-    background: #2D0A53;
-/* Brand/Secondary-Color */
+.bgBet {
+  background: #2d0a53;
+  /* Brand/Secondary-Color */
 
-border: 2px solid #66009A;
-border-radius: 16px 16px 0px 0px;
+  border: 2px solid #66009a;
+  border-radius: 16px 16px 0px 0px;
 }
-.bg-result{
-
-
-background: #66009A;
-/* Brand/Secondary-Color */
-
+.bg-result {
+  background: #66009a;
+  /* Brand/Secondary-Color */
 }
-body{
-    background-color: #2D0A53;
+body {
+  background-color: #2d0a53;
 }

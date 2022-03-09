@@ -48,7 +48,7 @@ const ApproveTransaction = () => {
 
             <div className='walletframe'>
                 <p className='usdprice'>
-                    <span className=''><img src="https://i.ibb.co/0yncGXb/dolar.png" alt="" /></span> 200,000 usd in prizes
+                    <span className=''><img className='dolar' src="https://i.ibb.co/0yncGXb/dolar.png" alt="" /></span> 200,000 usd in prizes
                 </p>
                 <div className='semiwalletframe'>
                     <p className='leftright2 '>

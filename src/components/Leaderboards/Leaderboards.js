@@ -49,7 +49,7 @@ const Leaderboards = () => {
 
                 <div className='walletframe mb-4 mt-4'>
                     <p className='usdprice'>
-                        <span className=''><img src="https://i.ibb.co/0yncGXb/dolar.png" alt="" /></span> 200,000 usd in prizes
+                        <span className=''><img src="https://i.ibb.co/0yncGXb/dolar.png" className='dolar' alt="" /></span> 200,000 usd in prizes
                     </p>
                     <div className='semiwalletframe'>
                         <p className='leftright2 '>
