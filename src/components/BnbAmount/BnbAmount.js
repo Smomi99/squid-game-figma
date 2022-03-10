@@ -12,13 +12,35 @@ const BnbAmount = () => {
     <div className="bnb-background">
       <Container>
         <Row className="bnbAm">
-          <Col>
+          <Col sm={12} lg={3} md={3}>
             {" "}
             <h2 className="text-info">Select BNB Amount</h2>
           </Col>
-          <Col xs={6} className="mb-4 mt-4">
+          <Col sm={12} lg={6} md={6} className="mb-4 mt-4">
             <Col className=" sqm row">
-              <Col className="">
+              <Col sm={12} md={12} lg={4} className="mt-2">
+                <Button className="bnb2">
+                  <div className="d-flex justify-content-start align-items-center ">
+                    {" "}
+                    <img src={binance} alt="" />{" "}
+                    <span
+                      className="text-white"
+                      style={{ fontWeight: "600", fontSize: "24px" }}
+                    >
+                      1BNB
+                    </span>
+                  </div>
+                  <div>
+                    <img src={starsvg} alt="" />{" "}
+                    <span className="text-white">+100</span>{" "}
+                    <img src={dolarsvg} alt="" />{" "}
+                    <span className="text-white">+$600 SQM</span>
+                  </div>
+                </Button>
+
+                {/* <img className="sign" src={sign} alt="" /> */}
+              </Col >
+              <Col sm={12} md={12} lg={4} className="mt-2">
                 <Button className="bnb2">
                   <div className="d-flex justify-content-start align-items-center ">
                     {" "}
@@ -40,29 +62,7 @@ const BnbAmount = () => {
 
                 {/* <img className="sign" src={sign} alt="" /> */}
               </Col>
-              <Col className="">
-                <Button className="bnb2">
-                  <div className="d-flex justify-content-start align-items-center ">
-                    {" "}
-                    <img src={binance} alt="" />{" "}
-                    <span
-                      className="text-white"
-                      style={{ fontWeight: "600", fontSize: "24px" }}
-                    >
-                      1BNB
-                    </span>
-                  </div>
-                  <div>
-                    <img src={starsvg} alt="" />{" "}
-                    <span className="text-white">+100</span>{" "}
-                    <img src={dolarsvg} alt="" />{" "}
-                    <span className="text-white">+$600 SQM</span>
-                  </div>
-                </Button>
-
-                {/* <img className="sign" src={sign} alt="" /> */}
-              </Col>
-              <Col className="">
+              <Col sm={12} md={12} lg={4} className="mt-2">
                 <Button className="bnb2">
                   <div className="d-flex justify-content-start align-items-center ">
                     {" "}
@@ -86,7 +86,7 @@ const BnbAmount = () => {
               </Col>
             </Col>
           </Col>
-          <Col>
+          <Col sm={12} lg={3} md={3}>
             <img src={enable} alt="" />
           </Col>
         </Row>

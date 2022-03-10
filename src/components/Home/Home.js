@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 import left1 from '../../images/left1.png'
 import right1 from '../../images/right1.png';
+import logo from '../../images/logo.png'
 const Home = () => {
     return (
         <div className='background back '>
             <>
 
-                <Link className='logo' to="/"></Link>\
+                <Link to="/"> <img className='logo' src={logo} alt="" /> </Link>\
 
             </>
             <div className='walletframe'>

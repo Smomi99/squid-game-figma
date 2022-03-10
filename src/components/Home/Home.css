@@ -27,11 +27,8 @@ body {
 }
 .logo {
   position: absolute;
-  width: 214px;
-  height: 115px;
-  left: 70px;
+  left: 80px;
   top: 36px;
-  background-image: url(../../images/logo.png);
 }
 /* .dolar{
     background-image: url(../../images/dolar.png);
@@ -536,13 +533,13 @@ border-radius: 80px;
   }
   .semi-nav {
     all: unset;
-    max-height: 222px !important;
-    margin-top: 28px !important;
+    height: 322px !important;
     padding-top: 48px;
     position: absolute;
     width: 100%;
     background-color: #200645;
     border-radius: 12px;
+    right: 0%;
   }
   .navbar-item {
     all: unset;

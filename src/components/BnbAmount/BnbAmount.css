@@ -34,7 +34,7 @@
   box-shadow: inset -2px 9px 60px rgba(141, 34, 197, 0.66);
   border-radius: 12px;
   cursor: pointer;
-  width: 152px;
+  height: 124px;
 }
 .change-my-color {
   fill: green;
@@ -50,13 +50,30 @@
     flex-direction: column;
     text-align: center;
   }
-}
-@media only screen and (max-width: 1200px) and (min-width: 600px) {
   .bnb2 {
-    width: 40%;
+    width: 100%;
+    position: relative;
+    right: 0 !important;
+
   }
-  .sqm {
-    display: flex;
-    flex-direction: column;
+}
+@media only screen and (max-width: 450px) and (min-width: 300px) {
+  .bigbtn2{
+    width: 200px !important;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 8px;
   }
+  .slick-next:before {
+    margin: 0px 0px 0px -50px;
+}
+.slick-prev:before {
+  margin-left: 18px;
+}
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+.logo{
+  width: 50%;
+}
 }
