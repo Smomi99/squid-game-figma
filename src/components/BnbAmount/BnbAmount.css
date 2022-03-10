@@ -57,11 +57,17 @@
 
   }
 }
+@media only screen and (max-width: 360px) and (min-width: 300px) {
+.bigbtn2{
+  margin-left: 10px !important;
+}
+}
 @media only screen and (max-width: 450px) and (min-width: 300px) {
   .bigbtn2{
-    width: 200px !important;
+    width: 280px !important;
     margin: auto;
-    margin-left: 22%;
+    height: 122px;
+    margin-left: 35px;
     margin-top: 8px;
   }
   .slick-next:before {
