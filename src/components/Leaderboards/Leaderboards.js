@@ -22,27 +22,25 @@ const Leaderboards = () => {
                             <Navbar.Toggle aria-controls="navbarScroll" />
                             <Navbar.Collapse id="navbarScroll">
                                 <Nav
-                                    className="me-auto ps-4 semi-nav my-2 my-lg-0"
-                                    style={{ maxHeight: '100px' }}
+                                    className=" ps-4 semi-nav my-2 my-lg-0"
                                     navbarScroll
                                 >
-                                    <Nav.Link className='navbar-item' href="#action1"> <img src={austin} alt="" /><span className='text-white'> 0x71C...8976F</span></Nav.Link>
-                                    <Nav.Link className='navbar-item1' href="#action1"> <img src={binance} alt="" /><span className='text-white'> 1.2921 BNB</span></Nav.Link>
-                                    <Nav.Link className='navbar-item1' href="#action1"> <img src={dolar} alt="" /><span className='text-white'> 7,721 SQM $51,263</span></Nav.Link>
-                                    <Nav.Link className='navbar-item1' href="#action1"> <img src={star} alt="" /><span className='text-white'> Rank 23</span></Nav.Link>
+                                    <Nav.Link className='navbar-item' href="#action1"> <img style={{ height: '14px' }} src={austin} alt="" /><span className='text-white' style={{ fontSize: '10px' }}> 0x71C...8976F</span></Nav.Link>
+                                    <Nav.Link className='navbar-item1' href="/binance"> <img style={{ height: '30px' }} src={binance} alt="" /><span className='text-white'> 1.2921 BNB</span></Nav.Link>
+                                    <Nav.Link className='navbar-item1' href="#action1"> <img style={{ height: '30px' }} src={dolar} alt="" /><span className='text-white'> 7,721 SQM $51,263</span></Nav.Link>
+                                    <Nav.Link className='navbar-item1' href="#action1"> <img style={{ height: '30px' }} src={star} alt="" /><span className='text-white'> Rank 23</span></Nav.Link>
                                     <Nav.Link className='navbar-item1' href="#action1"><span className='text-white'> Score 2032</span></Nav.Link>
-
+                                    <div className="d-flex gap-2 avvicon" style={{ position: 'absolute', right: '0' }}>
+                                        <img style={{ height: '40px' }} src={music} alt="" />
+                                        <img style={{ height: '40px' }} src={flag} alt="" />
+                                        <img style={{ height: '40px' }} src={user} alt="" />
+                                    </div>
                                 </Nav>
-                                <Form className="d-flex gap-4">
-                                    <img src={music} alt="" />
-                                    <img src={flag} alt="" />
-                                    <img src={user} alt="" />
-                                </Form>
+
                             </Navbar.Collapse>
                         </Container>
                     </Navbar>
                 </div>
-
 
 
 
