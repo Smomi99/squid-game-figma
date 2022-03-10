@@ -27,7 +27,7 @@ body {
 }
 .logo {
   position: absolute;
-  left: 80px;
+  left: 100px;
   top: 36px;
 }
 /* .dolar{
@@ -532,7 +532,6 @@ border-radius: 80px;
     width: 120px !important;
   }
   .semi-nav {
-    all: unset;
     height: 322px !important;
     padding-top: 48px;
     position: absolute;
@@ -542,11 +541,16 @@ border-radius: 80px;
     right: 0%;
   }
   .navbar-item {
-    all: unset;
-    margin-left: 22px;
+    margin-left: -222px;
   }
   .navbar-item1 {
-    all: unset;
+    margin-left: -222px;
+  }
+  .navbar-item111 {
+    margin-left: -169px;
+  }
+  .navbar-item1111 {
+    margin-left: -250px;
   }
   .profile {
     visibility: hidden;
