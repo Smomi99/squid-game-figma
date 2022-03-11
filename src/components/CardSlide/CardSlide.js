@@ -1,132 +1,34 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import Slider from "react-slick";
+import { Card, Col, Row } from "react-bootstrap";
 import "./CardSlide.css";
+import maskgr from '../../images/maskgr.png'
+import timeclock from '../../images/clock.png'
 const CardSlide = () => {
-  var settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 4,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+
   return (
-    <div className="container mt-4 fullcard">
+    <div className="container mt-4 ">
       <h2 className="text-white mb-4"> Yours previous games </h2>
-      <Slider {...settings}>
-        <div className="card-size ms-4 ">
-          <div style={{ width: "80%" }}>
-            <div className="bgBet p-1">
-              <h3 className="text-white">Bet: Evan</h3>
-              <small className="text-white">1 BNB -512 SQM</small>
-            </div>
-            <div className="bg-result p-2">
-              <h5 className="text-white">Result</h5>
-              <small className="text-white">Pending</small>
-            </div>
-          </div>
-        </div>
-        <div className="card-size">
-          <div style={{ width: "80%" }}>
-            <div className="bgBet p-1">
-              <h3 className="text-white">Bet: Evan</h3>
-              <small className="text-white">1 BNB -512 SQM</small>
-            </div>
-            <div className="bg-result p-2 mb-4">
-              <h5 className="text-white">Result</h5>
-              <small className="text-white">Pending</small>
-            </div>
-            <div>.</div>
-          </div>
-        </div>
-        <div className="card-size ">
-          <div style={{ width: "80%" }}>
-            <div className="bgBet p-1">
-              <h3 className="text-white">Bet: Evan</h3>
-              <small className="text-white">1 BNB -512 SQM</small>
-            </div>
-            <div className="bg-result p-2">
-              <h5 className="text-white">Result</h5>
-              <small className="text-white">Pending</small>
-            </div>
-          </div>
-        </div>
-        <div className="card-size ">
-          <div style={{ width: "80%" }}>
-            <div className="bgBet p-1">
-              <h3 className="text-white">Bet: Evan</h3>
-              <small className="text-white">1 BNB -512 SQM</small>
-            </div>
-            <div className="bg-result p-2">
-              <h5 className="text-white">Result</h5>
-              <small className="text-white">Pending</small>
-            </div>
-          </div>
-        </div>
-        <div className="card-size ">
-          <div style={{ width: "80%" }}>
-            <div className="bgBet p-1">
-              <h3 className="text-white">Bet: Evan</h3>
-              <small className="text-white">1 BNB -512 SQM</small>
-            </div>
-            <div className="bg-result p-2">
-              <h5 className="text-white">Result</h5>
-              <small className="text-white">Pending</small>
-            </div>
-          </div>
-        </div>
-        <div className="card-size ">
-          <div style={{ width: "80%" }}>
-            <div className="bgBet p-1">
-              <h3 className="text-white">Bet: Evan</h3>
-              <small className="text-white">1 BNB -512 SQM</small>
-            </div>
-            <div className="bg-result p-2">
-              <h5 className="text-white">Result</h5>
-              <small className="text-white">Pending</small>
-            </div>
-          </div>
-        </div>
-        <div className="card-size ">
-          <div style={{ width: "80%" }}>
-            <div className="bgBet p-1">
-              <h3 className="text-white">Bet: Evan</h3>
-              <small className="text-white">1 BNB -512 SQM</small>
-            </div>
-            <div className="bg-result p-2">
-              <h5 className="text-white">Result</h5>
-              <small className="text-white">Pending</small>
-            </div>
-          </div>
-        </div>
-      </Slider>
+      <div >
+        <Row xs={1} md={4} sm={3} lg={4} className="gx-0">
+          {Array.from({ length: 5 }).map((_, idx) => (
+            <Col className="card-size">
+              <Card >
+                <Card.Body>
+                  <div className="bgBet text-white p-2">
+                    <h1 className="text-white betfont" >Bet: Even</h1>
+                    <small className="text-white betfont1"> <img src={maskgr} alt="" /> 1 BNB -512 SQM</small>
+                  </div>
+                  <Card.Text className="text-white bg-result p-2">
+                    <h6 className="text-white">Result</h6>
+                    <small > <img src={timeclock} alt="" /> Pending</small>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </div>
+      <hr style={{ height: '7px', color: 'rgba(0, 150, 255, 0.46)', borderRadius: '90px' }} />
     </div>
   );
 };

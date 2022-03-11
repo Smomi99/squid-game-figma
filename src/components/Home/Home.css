@@ -1,6 +1,9 @@
 @import url("https://fonts.cdnfonts.com/css/space-ranger");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://fonts.cdnfonts.com/css/dark-college");
+*{
+  font-family:Arial, Helvetica, sans-serif
+}
 body {
   overflow-x: hidden;
 }

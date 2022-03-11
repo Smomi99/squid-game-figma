@@ -38,10 +38,10 @@ const Header = () => {
                 className=" ps-4 semi-nav my-2 my-lg-0"
                 navbarScroll
               >
-                <Nav.Link className='navbar-item' href="#action1"> <img style={{ height: '14px' }} src={austin} alt="" /><span className='text-white' style={{ fontSize: '10px' }}> 0x71C...8976F</span></Nav.Link>
-                <Nav.Link className='navbar-item1 navbar-item11' href="/binance"> <img style={{ height: '30px' }} src={binance} alt="" /><span className='text-white'> 1.2921 BNB</span></Nav.Link>
-                <Nav.Link className='navbar-item1 navbar-item111' href="#action1"> <img style={{ height: '30px' }} src={dolar} alt="" /><span className='text-white'> 7,721 SQM $51,263</span></Nav.Link>
-                <Nav.Link className='navbar-item1 navbar-item1111' href="#action1"> <img style={{ height: '30px' }} src={star} alt="" /><span className='text-white'> Rank 23</span></Nav.Link>
+                <Nav.Link className='navbar-item' href="#action1"> <img style={{ height: '16px' }} src={austin} alt="" /><span className='text-white' style={{ fontSize: '10px' }}> 0x71C...8976F</span></Nav.Link>
+                <Nav.Link className='navbar-item1 navbar-item11' href="/binance"> <img style={{ height: '34px' }} src={binance} alt="" /><span className='text-white'> 1.2921 BNB</span></Nav.Link>
+                <Nav.Link className='navbar-item1 navbar-item111' href="#action1"> <img style={{ height: '34px' }} src={dolar} alt="" /><span className='text-white'> 7,721 SQM $51,263</span></Nav.Link>
+                <Nav.Link className='navbar-item1 navbar-item1111' href="#action1"> <img style={{ height: '36px' }} src={star} alt="" /><span className='text-white'> Rank 23</span></Nav.Link>
                 <Nav.Link className='navbar-item1 navbar-item11111' href="#action1"><span className='text-white'> Score 2032</span></Nav.Link>
                 <div className="d-flex gap-2 avvicon" style={{ position: 'absolute', right: '0' }}>
                   <img style={{ height: '40px' }} src={music} alt="" />

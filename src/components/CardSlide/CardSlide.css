@@ -1,9 +1,13 @@
+
 .card-size {
-  width: 223px;
+  width: 253px;
   height: 227px;
 
   filter: drop-shadow(6px 10px 22px #620095);
   border-radius: 16px 16px 0px 0px;
+}
+.card{
+  background-color: transparent;
 }
 .bgBet {
   background: #2d0a53;
@@ -15,7 +19,34 @@
 .bg-result {
   background: #66009a;
   /* Brand/Secondary-Color */
+  border-radius: 0px 0px 16px 16px;
 }
 body {
   background-color: #2d0a53;
+}
+.betfont{
+  font-size: 28px;
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .card-size {
+    width: 220px;
+    height: 227px;
+  
+    filter: drop-shadow(6px 10px 22px #620095);
+    border-radius: 16px 16px 0px 0px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+  .card-size {
+    width: 180px;
+  
+    filter: drop-shadow(6px 10px 22px #620095);
+    border-radius: 16px 16px 0px 0px;
+  }
+  .betfont{
+    font-size: 20px;
+  }
+  .betfont1{
+    font-size: 12px;
+  }
 }
